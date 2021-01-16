@@ -9,8 +9,9 @@ const main = async () => {
   // run table migrations
   await orm.getMigrator().up();
 
-  // const post = orm.em.create(Post, { title: "my first post" });
-  // await orm.em.persistAndFlush(post);
+  // .em is enitity manager
+  //generates SQL query to find all posts,
+  //To select all entities, use em.find(Entity, {}) as value i.e return all posts
   const posts = await orm.em.find(Post, {});
   console.log(posts);
 };

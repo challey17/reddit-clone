@@ -1,0 +1,6 @@
+need to install redis,
+looks like via homebrew
+https://gist.github.com/tomysmile/1b8a321e7c58499ef9f9441b2faa0aa8
+
+stopped at adding browser cookie, 
+video timestamp 1:41:45
